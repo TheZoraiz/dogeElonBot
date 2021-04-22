@@ -4,8 +4,8 @@ A bot that notifies you whenever Elon Musk posts a tweet about dogecoin (if it c
 
 ## Packages used:
 
-github.com/buger/jsonparser
+[github.com/buger/jsonparser](github.com/buger/jsonparser)
 
-github.com/faiface/beep
+[github.com/faiface/beep](github.com/faiface/beep)
 
-github.com/gen2brain/beeep
+[github.com/gen2brain/beeep](github.com/gen2brain/beeep)
