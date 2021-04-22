@@ -8,7 +8,9 @@ Executables for both Windows and Linux 64 bit achitectures can be found in the b
 
 For usage of the code, you will need a twitter bearer token. After obtaining it, declare a const variable named "bearerToken" with your twitter bearer token in the main package like so:
 
+```go
 const bearerToken = "Bearer <bearer_token>"
+```
 
 
 ## Packages used:
