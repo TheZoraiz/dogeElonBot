@@ -6,11 +6,9 @@ A bot that notifies you via desktop notifications whenever Elon Musk posts a twe
 
 Executables for both Windows and Linux 64 bit achitectures can be found in the build directory, or can retrieve them from the [release.](https://github.com/TheZoraiz/dogeElonBot/releases/tag/v1.1)
 
-For usage of the code, you will need a twitter bearer token. After obtaining it, declare a const variable with your twitter bearer token in the main package like so:
+For usage of the code, you will need a twitter bearer token. After obtaining it, declare a const variable named "bearerToken" with your twitter bearer token in the main package like so:
 
-const (
-	bearerToken = "Bearer <bearer_token>"
-)
+const bearerToken = "Bearer <bearer_token>"
 
 
 ## Packages used:
