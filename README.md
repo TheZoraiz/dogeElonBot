@@ -1,6 +1,6 @@
 # Doge Elon Bot
 
-A bot that notifies you whenever Elon Musk posts a tweet about dogecoin (if it contains the keyword "doge"). Find the execurables [here.](https://github.com/TheZoraiz/dogeElonBot/releases/tag/v1.1)
+A bot that notifies you via desktop notifications whenever Elon Musk posts a tweet about dogecoin (if it contains the keyword "doge"). Find the execurables [here.](https://github.com/TheZoraiz/dogeElonBot/releases/tag/v1.1)
 
 ## Packages used:
 
