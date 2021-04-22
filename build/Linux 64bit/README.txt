@@ -1,4 +1,4 @@
-Don't move the alert.mp3 file from the executable file's directory. Otherwise alert sound won't load when alerts come in
+NOTE: Don't move the alert.mp3 file from the executable file's directory. Otherwise script will stop when it tries to play alert
 
 Linux Guide:
 
