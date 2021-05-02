@@ -22,12 +22,18 @@ func main() {
 	fmt.Println("\nLive logs:")
 	for true {
 		if errorCount == 10 {
+
+			title := "dogeElonBot crashed. Too many errors."
+			body := "Please restart it and check your internet connection"
+			makeAlert(title, body, true)
+
 			fmt.Println("Too many errors. It's possible that the API is not responding as expected or there's something wrong with your internet connection. Please restart or try again later.")
+
 			break
 		}
 
 		// Elon's last 5 tweets
-		data, err := fetchApiData("https://api.twitter.com/2/users/44196397/tweets?max_results=5")
+		data, err := fetchApiData("https://api.twistter.com/2/users/44196397/tweets?max_results=5")
 
 		tweetsList, err2 := getTweets(data)
 
@@ -44,7 +50,7 @@ func main() {
 				if !isVisited(visitedList, tweet.text) {
 					if counter == 0 {
 						title := "Elon made a Dogecoin tweet recently in his last 5 tweets"
-						body := "\"" + tweet.text + "\"\n\nhttps://twitter.com/elonmusk/status/" + tweet.id
+						body := "\"" + tweet.text + "\"\n\nhttps://twitter.com/elonmusk/status/" + tweet.id + "\n(This only shows up as the first notification)"
 						makeAlert(title, body, true)
 
 						fmt.Println(time.Now().Format("[01-02-2006 15:04:05]") + " DOGE TWEET!!!")
