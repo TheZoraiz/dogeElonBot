@@ -33,7 +33,7 @@ func main() {
 		}
 
 		// Elon's last 5 tweets
-		data, err := fetchApiData("https://api.twistter.com/2/users/44196397/tweets?max_results=5")
+		data, err := fetchApiData("https://api.twitter.com/2/users/44196397/tweets?max_results=5")
 
 		tweetsList, err2 := getTweets(data)
 
